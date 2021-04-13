@@ -5,16 +5,6 @@ pipeline {
 			steps {
 				echo "build"
 					}
-		stage ('QA') {
-			steps {
-				echo "QA"
-					}
-		stage ('Integration') {
-			steps {
-				echo "Integration"
-					}
-				}
-			}
 		}
 	}
 }
